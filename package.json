@@ -1,0 +1,26 @@
+{
+  "name": "task2-jwt-rbac",
+  "version": "1.0.0",
+  "description": "Task 2: Authentication and authorization using JWT and RBAC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "hash": "node generate-hashes.js"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "rbac",
+    "authentication",
+    "authorization"
+  ],
+  "author": "Vlad Churukanov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
